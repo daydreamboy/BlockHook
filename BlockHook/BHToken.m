@@ -7,7 +7,7 @@
 //
 
 #import "BHToken.h"
-#import <ffi.h>
+#import "ffi.h"
 #import <dlfcn.h>
 #import <objc/runtime.h>
 

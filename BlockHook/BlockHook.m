@@ -29,8 +29,8 @@
     return valid;
 }
 
-- (BHToken *)block_hookWithMode:(BlockHookMode)mode
-                     usingBlock:(id)aspectBlock {
+- (nullable BHToken *)block_hookWithMode:(BlockHookMode)mode
+                              usingBlock:(id)aspectBlock {
     if (!aspectBlock || ![self block_checkValid]) {
         return nil;
     }
